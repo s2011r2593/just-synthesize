@@ -30,31 +30,14 @@ class App extends Component {
   render() {
     return (
       <StyledMain>
-        <Title>What is Nth Sy?</Title>
+        <Title>What is JustSynth?</Title>
         <Info>
-          Nth Sy is just a mono synth but with the first two letters of synth moved to the back. <br/><br/>
-          Nth Sy was designed for full-screen, half-screen, and quarter-screen (aspect ratios from 16:9 to around 8:9 should be fine).
-          Obviously it'll look okay in most situations, but use weird screen sizes at your own risk! (it won't break, but it might look funky)
+          The "just" in JustSynth comes from just intonation. JustSynth allows users to enter ratios to define intervals. This is opposed to the typical implementation of 12-TET which has irrational ratios which results in slight imperfections. Using just intonation, users can make certain intervals more harmonious (although it will be at the expense of certain other intervals) <br/><br/>
+          Hopefully obviously, the "synth" part of JustSynth comes from the fact that JustSynth is a rudimentary synthesizer. To change the waveform that is generated, you can click "2" in the page navigator in the top left corner.
         </Info>
-        <Title>Features</Title>
+        <Title>Tips</Title>
         <Info>
-          There are three pages where you can adjust the synth's parameters.
-          Page 3 lets you adjust the synth's waveform to sawtooth, triangle,
-          sine, or square.
-        </Info>
-        <Title>Keymapping</Title>
-        <Info>
-          You can play the virtual keyboard with your computer keyboard.
-          The note "C" is mapped to the key 'a' and hopefully the rest is pretty
-          self explanatory. <br/><br/>
-          You can shift octaves with 'z' and 'x' (down and up respectively)
-          and 'c' will reset the octave register to 4.
-        </Info>
-        <Title>Known bugs that I'm too lazy to fix (for now)</Title>
-        <Info>
-          Sometimes the synth will just stop making noise. If that happens,
-          just press 'v'. <br/><br/>
-          Please just don't switch synth sounds as you're playing notes.
+          You can play using the keyboard. Keys a ~ ; (including w, e, t, y, u, o, and p) correspond to a C major scale. Use "z" and "x" to change octaves. "c" will take you back to the middle octave range. "v" will kill all sound (there are some bug issues, so you might need that)
         </Info>
         <Info><br/><br/><br/><br/><br/></Info>
       </StyledMain>

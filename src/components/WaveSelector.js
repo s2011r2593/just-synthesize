@@ -59,8 +59,9 @@ class App extends Component {
   }
 
   setWave = (index) => {
-    this.setState({wave: index});
-    this.props.wavehandler(index);
+    this.setState({wave: index}, () => {
+      this.props.wavehandler(this.state.wave);
+    });
   }
 
   render() {
