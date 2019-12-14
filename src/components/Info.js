@@ -32,12 +32,12 @@ class App extends Component {
       <StyledMain>
         <Title>What is JustSynth?</Title>
         <Info>
-          The "just" in JustSynth comes from just intonation. JustSynth allows users to enter ratios to define intervals. This is opposed to the typical implementation of 12-TET which has irrational ratios which results in slight imperfections. Using just intonation, users can make certain intervals more harmonious (although it will be at the expense of certain other intervals) <br/><br/>
-          Hopefully obviously, the "synth" part of JustSynth comes from the fact that JustSynth is a rudimentary synthesizer. To change the waveform that is generated, you can click "2" in the page navigator in the top left corner.
+          The "just" in JustSynth comes from just intonation. JustSynth allows users to enter ratios to define intervals. This is opposed to the typical implementation of 12-TET which uses irrational ratios resulting in slight imperfections in the intervals (save the octave). Using just intonation, users can make certain intervals more harmonious (admittedly at the expense of other <br/><br/>
+          intervals). Hopefully obviously, the "synth" part of JustSynth comes from the fact that JustSynth is a rudimentary synthesizer. To change the waveform that is generated, click "2" in the page navigator in the top left corner; however, it is suggested to stick to the sinewave.
         </Info>
         <Title>Tips</Title>
         <Info>
-          You can play using the keyboard. Keys a ~ ; (including w, e, t, y, u, o, and p) correspond to a C major scale. Use "z" and "x" to change octaves. "c" will take you back to the middle octave range. "v" will kill all sound (there are some bug issues, so you might need that)
+          You can play using the keyboard. Keys "a" through ";"" (and w, e, t, y, u, o, and p) correspond to a C major scale. Use "z" and "x" to change octaves. "c" will take you back to the middle octave range. "v" will kill all sound (there are some bug issues, so you might need that)
         </Info>
         <Info><br/><br/><br/><br/><br/></Info>
       </StyledMain>
