@@ -70,6 +70,13 @@ const Mid = styled.div`
   margin-right: auto;
 `;
 
+const Hold = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -32px;
+  align-items: center;
+`;
+
 const Interval = styled.div`
   margin-top: auto;
   margin-bottom: auto;
@@ -98,6 +105,19 @@ const StyledTitle = styled.p`
   animation: ${Rain} 1s linear infinite alternate;
   margin-top: 16px;
   margin-left: 18px;
+`;
+
+const Author = styled.p`
+  font-family: 'Lucida Console', 'Futura';
+  font-size: 12px;
+  font-style: italic;
+  color: #f0f0f0;
+  background-image: repeating-linear-gradient(to left, #fffb96,#ff6ad5,#c774e8,#ad8cff,#e2fcde,#8795e8,#ffefc9,#94d0ff,#fff0fd,#10d7ae);
+  -webkit-background-clip: text;
+  background-size: 20%;
+  animation: ${Rain} 1s linear infinite alternate;
+  margin-top: 10px;
+  margin-left: 8px;
 `;
 
 const StyledExplain = styled.p`
@@ -420,9 +440,14 @@ class App extends Component {
       <StyledMain>
         <Panel>
           <Sub1>
-            <StyledTitle>
-              {this.dslash} JustSynth
-            </StyledTitle>
+            <Hold>
+              <StyledTitle>
+                {this.dslash} JustSynth
+              </StyledTitle>
+              <Author>
+                (by sean rhee)
+              </Author>
+            </Hold>
             <TonicInd>
               <Descriptor>
                 = Tonic Freq =
@@ -448,7 +473,7 @@ class App extends Component {
                 </StyledTitle>
               </Holder>
               <StyledExplain>
-                Change the key centeroff of which to base build intervals
+                Change the key center off of which to base build intervals
               </StyledExplain>
             </TonicInd>
           </Sub1>
