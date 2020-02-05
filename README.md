@@ -1,3 +1,8 @@
+Just Synth is a just intonation synthesizer which allows the user to define the frequency ratios that are used. Although the waveform can be changed, a sine wave is suggested since the wave generator is not that great.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

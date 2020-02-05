@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "homepage": "http://s2011r2593.github.io/synthesis",
   "name": "my-app",
+=======
+  "homepage": "http://s2011r2593.github.io/just-synthesize",
+  "name": "just-synthesize",
+>>>>>>> fdf31f48548c92cd49f53e61adae1ee1a2b6dd34
   "version": "0.1.0",
   "private": true,
   "dependencies": {
